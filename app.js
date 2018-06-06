@@ -18,3 +18,10 @@ const areValidCredentials = (name, password) => {
 	}
 }
 
+/**/
+let num = [1, 2, 3, 4, 5, 6, 100, 7, 9];
+const getNthElement = (array, n) => {
+	
+	return array [n];
+}
+
