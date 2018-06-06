@@ -18,10 +18,17 @@ const areValidCredentials = (name, password) => {
 	}
 }
 
-/**/
+/*Dado un arreglo y un entero, getNthElement devuelve el valor según el entero dado, dentro del arreglo dado.*/
+
 let num = [1, 2, 3, 4, 5, 6, 100, 7, 9];
 const getNthElement = (array, n) => {
-	
 	return array [n];
 }
 
+
+/*Dada una cadena, convertDoubleSpaceToSingle devuelve la cadena pasada en cadena con todos los espacios dobles convertidos a espacios simples.*/
+
+const convertDoubleSpaceToSingle = (str) => {
+	let arrayStr = str.split("  ").join(" ");
+	return arrayStr;
+}
